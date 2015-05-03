@@ -21,6 +21,7 @@ public class ControlPersonal {
     	Asignatura a2 = new Asignatura("Entornos", 7);
     	Asignatura a3 = new Asignatura("Sistemas", 5);
     	Asignatura a4 = new Asignatura("Lenguaje de Marcas", 8);
+    	Asignatura a5 = new Asignatura("Bases de datos", 5);
     	
     	Profesor pro1 = new Profesor("Nacho", "45734598D");
     	Profesor pro2 = new Profesor("Rosa", "87838483A");
@@ -45,6 +46,8 @@ public class ControlPersonal {
 		alu5.anyadirAsignatura(a3);
 		pro2.anyadirAsignatura(a4);
 		alu2.anyadirAsignatura(a4);
+		alu3.anyadirAsignatura(a5);
+		alu4.anyadirAsignatura(a5);
 		
 		anyadirPersona(pro1);
 		anyadirPersona(pro2);
