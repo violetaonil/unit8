@@ -4,9 +4,8 @@ public class Asignatura {
 
 	private String nombre;
 	private double nota;
-	private String DNI;
 	
-	public Asignatura(String nombre){
+	public Asignatura(String nombre, double nota){
 		
 	}
 	
@@ -28,16 +27,6 @@ public class Asignatura {
 	public void setNota(double nota){
 		
 		this.nota = nota;
-	}
-	
-	public String getDni(){
-		
-		return DNI;
-	}
-	
-	public void setDni(String DNI){
-		
-		this.DNI = DNI;
 	}
 	
 }

@@ -27,11 +27,13 @@ public abstract class Persona {
 	public void mostrarListadoAsignaturasNota()
 	{
 		Asignatura a;
-		System.out.println("Nombre del alumno: " + nombre + "está matriculado en la asignatura: ");
+		System.out.println("Nombre del alumno: " + nombre + " está matriculado en la asignatura: ");
 		for(int i=0; i<asignaturas.size(); i++)
 		{
 			a = asignaturas.get(i);
-			System.out.println(a.getNombre() + " y su nota es: " + a.getNota());
+			String nombreAsig = a.getNombre();
+			double notaAsig = a.getNota();
+			System.out.println(nombreAsig + " y su nota es: " + notaAsig);
 		}
 	}
 	
